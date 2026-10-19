@@ -1,3 +1,8 @@
+def divide(a, b):
+    if b == 0:
+        return "На ноль делить нельзя"
+    return a / b
+
 def add(a, b):
     return a + b
 
@@ -21,6 +26,7 @@ def main():
 >>>>>>> 66a9300f98127ec3185cfbac074f3d2536d32580
     print("Разность:", subtract(a, b))
     print("Произведение:", multiply(a, b))
+    print("Частное:", divide(a, b))
 
 
 if __name__ == "__main__":
